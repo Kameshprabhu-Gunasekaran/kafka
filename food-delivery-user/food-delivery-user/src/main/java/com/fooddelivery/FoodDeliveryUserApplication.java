@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-@EntityScan(basePackages = {"org.fooddelivery.dto"})
+@EntityScan(basePackages = {"org.fooddelivery.entity"})
 public class FoodDeliveryUserApplication {
 
 	public static void main(String[] args) {
